@@ -29,7 +29,7 @@ export default function Home() {
 		window.alert("Button is Clicked");
 	};
 	return (
-		<div className={classes.root}>
+		<div className={classes.root} tabIndex='0'>
 			<Paper className={classes.paper}>
 				<Typography>Primary Button:</Typography>
 				{/* primary button */}
